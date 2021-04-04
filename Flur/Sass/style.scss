@@ -1,0 +1,92 @@
+:root {
+    --blue: #5863F8;
+    --purple: #1A1423;
+    --teal: #45F0DF;
+}
+
+main {
+    background-color: var(--blue);
+}
+
+.navbar-custom {
+    background: var(--blue) !important;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    letter-spacing: normal;
+    font-weight: bolder;
+}
+
+.st2 {
+    margin-top: 0.2rem;
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.typed-text {
+    color: #EF476F;
+    font-weight: normal;
+}
+
+.cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+    -webkit-animation: blink 1s infinite;
+}
+
+.cursor.typing {
+    animation: none;
+    -webkit-animation: none;
+}
+
+@keyframes blink {
+    0% {
+        background-color: #ccc;
+    }
+
+    50% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: #ccc;
+    }
+}
+
+.btn {
+    align-self: center;
+    background-color: #0096c7;
+    text-align: center;
+}
+
+.st3 {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    color: blue;
+}
+
+p {
+    display: inline-flexbox;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.st {
+    background-color: var(--purple);
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,71 @@
+:root {
+    --blue: #2F2963;
+    --pink: #EF709D;
+    --blue-dark: #6E75A8;
+    --turqoise: turquoise;
+}
+
+body {
+    background-color: var(--blue-dark);
+}
+
+form i.fas {
+
+    top: 6px;
+    left: 20px;
+    color: var(--blue);
+    font-size: 20px;
+    z-index: 99;
+}
+
+.form-control {
+    position: relative;
+    padding-left: 45px !important;
+
+}
+
+.log-in-content {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    max-width: 500px;
+    margin: auto;
+    background: var(--blue);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#btn {
+    background-color: #465775;
+}
+
+.pass {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    max-width: 500px;
+    margin: auto;
+    background: var(--turqoise);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-content {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    max-width: 500px;
+    margin: auto;
+    background: var(--turqoise);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
